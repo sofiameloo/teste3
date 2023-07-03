@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Taylor Swift</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <header>
+  
+    <h1>Taylor Swift: The Eras Tour RJ</h1>
+  </header>
+  
+  <div class="content">
+    <div class="evento">
+      <img class="imagem" src="img/taylorerassprint3.jpg" alt="Imagem do Evento">
+      <div class="detalhes">
+        <h2>The Eras Tour</h2>
+        <p>Data: 18 de novembro de 2023</p>
+        <p>Local: Estádio Nilton Santos</p>
+        <p>Descrição: A cantora Taylor Swift anunciou na última semana que está vindo ao Brasil. Ela apresentará a “The Eras Tour” no dia 18 de novembro, no Estádio Nilton Santos, no Rio de Janeiro. Há cinco anos sem sair em turnê, Taylor Swift retornou em grande estilo e promete fazer grandes shows no Brasil. Sua turnê teve início no dia 17 de março deste ano e está movimentando multidões nos Estados Unidos. São 52 shows no país com capacidade para 70 mil pessoas</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <label for="filtro">Filtrar por:</label>
+    <select id="filtro" onchange="filtrarIngressos()">
+      <option value="recente">Mais Recente</option>
+      <option value="antigo">Mais Antigo</option>
+      <option value="menor-preco">Menor Preço</option>
+      <option value="maior-preco">Maior Preço</option>
+    </select>
+  </div>
+
+  <div class="content">
+    <div class="evento">
+      <h3>Ingressos</h3>
+      <div id="lista-ingressos">
+             </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2023 E-Ingresso. Todos os direitos reservados.</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

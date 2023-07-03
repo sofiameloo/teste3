@@ -1,0 +1,38 @@
+/* Estilização dos ingressos */
+.ingresso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+  width: 300px; /* Defina a largura desejada para cada ingresso */
+}
+
+.ingresso:hover {
+  transform: translateY(-2px);
+}
+
+.ingresso h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.ingresso p {
+  margin: 0;
+}
+
+#filtro {
+  margin-top: 10px;
+}
+
+#lista-ingressos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Define o espaçamento horizontal entre os ingressos */
+}
